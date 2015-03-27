@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_aves"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@mipmap/ave1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Pusheen"
+        android:id="@+id/nombre"
+        android:textStyle="bold"
+        android:textColor="#424242"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image_aves"
+        android:layout_toEndOf="@+id/image_aves"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="precio"
+        android:textColor="#424242"
+        android:id="@+id/precio_aves"
+        android:layout_below="@+id/nombre"
+        android:layout_alignLeft="@+id/nombre"
+        android:layout_alignStart="@+id/nombre" />
+
+
+</RelativeLayout>
